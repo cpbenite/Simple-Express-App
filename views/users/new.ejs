@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Simple Express App</title>
+</head>
+<body>
+    <form action="/users" method="POST">
+        <label>First name
+            <input type="text" name="firstName" value="<%= locals.firstName %>" />
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
